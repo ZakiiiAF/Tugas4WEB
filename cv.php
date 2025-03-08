@@ -40,7 +40,7 @@ $user_data = [
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #f6f8f9 0%, #e5ebee 100%);
+            background: linear-gradient(135deg,rgb(90, 137, 229) 0%,rgb(53, 108, 217) 100%);
         }
         .section-card {
             transition: all 0.3s ease-in-out;
@@ -114,25 +114,7 @@ $user_data = [
                             ?>
                         </ul>
                     </div>
-
-                                        <!-- Proyek
-                                        <div class="section-card bg-indigo-50 p-6 rounded-2xl">
-                        <h2 class="text-2xl font-semibold text-indigo-700 mb-4 flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                            </svg>
-                            Proyek
-                        </h2>
-                        <ul class="list-disc list-inside text-gray-700 space-y-2">
-                            <?php
-                            /*$projectList = explode("\n", $user_data['project']);
-                            foreach ($projectList as $item) {
-                                echo "<li>" . htmlspecialchars(trim($item)) . "</li>";
-                            }*/
-                            ?>
-                        </ul>
-                    </div> -->
-
+                    
                     <!-- Hard Skill -->
                     <div class="section-card bg-purple-50 p-6 rounded-2xl">
                         <h2 class="text-2xl font-semibold text-purple-700 mb-4 flex items-center">

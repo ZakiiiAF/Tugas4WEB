@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <!-- Tambahkan Font Awesome untuk ikon -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center min-h-screen">
+<body class="bg-blue-500 text-gray-900 flex items-center justify-center min-h-screen">
     <div class="bg-white p-8 rounded-lg shadow-2xl w-full max-w-md transform transition-all duration-300 hover:scale-105">
         <h1 class="text-3xl font-bold text-center mb-6 text-gray-800">Buat CV Anda</h1>
         <form method="POST" action="" enctype="multipart/form-data" class="space-y-6">
@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         name="nama"
                         required
                         class="block w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                        placeholder="Masukkan nama lengkap"
+                        placeholder="Masukan Nama Lengkap Anda"
                     >
                 </div>
             </div>
@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         name="ttl"
                         required
                         class="block w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                        placeholder="Contoh: Jakarta, 1 Januari 1990"
+                        placeholder="Contoh: Padang, 5 April 2006"
                     >
                 </div>
             </div>
@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         rows="4"
                         required
                         class="block w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                        placeholder="Contoh: S1 Teknik Informatika, Universitas Contoh"
+                        placeholder="Contoh: S1 Sistem Informasi, Universitas Brawijaya"
                     ></textarea>
                 </div>
             </div>
@@ -120,7 +120,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         rows="4"
                         required
                         class="block w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                        placeholder="Contoh: Software Engineer di PT. Contoh (2020 - Sekarang)"
+                        placeholder="Contoh: Produk Management di PT Astra Indonesia 2022-Sekarang"
                     ></textarea>
                 </div>
             </div>
@@ -138,31 +138,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         rows="2"
                         required
                         class="block w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                        placeholder="Contoh: JavaScript, React, PHP, MySQL"
+                        placeholder="Contoh: JavaScript, Draw.io, Flogarithm"
                     ></textarea>
                 </div>
             </div>
-
-            <!-- <div>
-                <label for="project" class="block text-sm font-medium text-gray-700">Proyek:</label>
-                <div class="mt-1 relative rounded-md shadow-sm">
-                    <div class="absolute inset-y-0 left-0 pl-3 pt-3 flex items-start pointer-events-none">
-                        <i class="fas fa-project-diagram text-gray-400"></i>
-                    </div>
-                    <textarea
-                        id="project"
-                        name="project"
-                        rows="4"
-                        class="block w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                        placeholder="Contoh: 
-Nama Proyek: Aplikasi Manajemen Stok
-Deskripsi: Aplikasi web untuk mengelola stok barang menggunakan PHP dan MySQL
-Teknologi: PHP, MySQL, Bootstrap
-Peran: Pengembang Utama
-Hasil: Meningkatkan efisiensi pencatatan stok 40%"
-                    ></textarea>
-                </div>
-            </div> -->
 
             <!-- Soft Skill -->
             <div>
@@ -195,7 +174,7 @@ Hasil: Meningkatkan efisiensi pencatatan stok 40%"
                         rows="4"
                         required
                         class="block w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                        placeholder="Contoh: Juara 1 Lomba Coding Nasional 2022"
+                        placeholder="Contoh: Juara 1 Lomba Bussines Plan Hology Universitas Brawijaya 2024"
                     ></textarea>
                 </div>
             </div>

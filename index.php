@@ -31,7 +31,7 @@
     <title>Login</title>
     <style>
         body {
-            background: linear-gradient(to right, #4f46e5, #9333ea);
+            background: linear-gradient(to right,#20B2AA, #87CEEB);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -116,7 +116,7 @@
         button {
             width: 100%;
             padding: 0.75rem 1rem;
-            background-color: #5a67d8;
+            background-color:rgb(22, 166, 179);
             color: white;
             border: none;
             border-radius: 0.5rem;
