@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $_SESSION['hard_skill'] = $_POST['hard_skill'];
     $_SESSION['soft_skill'] = $_POST['soft_skill'];
     $_SESSION['prestasi'] = $_POST['prestasi'];
-    $_SESSION['project'] = $_POST['project'];
+//    $_SESSION['project'] = $_POST['project'];
     $_SESSION['foto'] = $_FILES['foto']['name']; // Simpan nama file foto
     move_uploaded_file($_FILES['foto']['tmp_name'], 'uploads/' . $_FILES['foto']['name']); // Simpan file foto ke folder uploads
 
@@ -143,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
             </div>
 
-            <div>
+            <!-- <div>
                 <label for="project" class="block text-sm font-medium text-gray-700">Proyek:</label>
                 <div class="mt-1 relative rounded-md shadow-sm">
                     <div class="absolute inset-y-0 left-0 pl-3 pt-3 flex items-start pointer-events-none">
@@ -162,7 +162,7 @@ Peran: Pengembang Utama
 Hasil: Meningkatkan efisiensi pencatatan stok 40%"
                     ></textarea>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Soft Skill -->
             <div>

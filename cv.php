@@ -115,7 +115,7 @@ $user_data = [
                         </ul>
                     </div>
 
-                                        <!-- Proyek -->
+                                        <!-- Proyek
                                         <div class="section-card bg-indigo-50 p-6 rounded-2xl">
                         <h2 class="text-2xl font-semibold text-indigo-700 mb-4 flex items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -125,13 +125,13 @@ $user_data = [
                         </h2>
                         <ul class="list-disc list-inside text-gray-700 space-y-2">
                             <?php
-                            $projectList = explode("\n", $user_data['project']);
+                            /*$projectList = explode("\n", $user_data['project']);
                             foreach ($projectList as $item) {
                                 echo "<li>" . htmlspecialchars(trim($item)) . "</li>";
-                            }
+                            }*/
                             ?>
                         </ul>
-                    </div>
+                    </div> -->
 
                     <!-- Hard Skill -->
                     <div class="section-card bg-purple-50 p-6 rounded-2xl">
